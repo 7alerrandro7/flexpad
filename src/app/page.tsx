@@ -21,11 +21,11 @@ export default function Home() {
         <div>
           <label htmlFor="" className='mr-5'>Folder name:</label>
           <input type="text" onChange={onInputChange} onKeyDown={e => e.key === 'Enter' ? goToFolder() : ''}/>
-          <button className='ml-5' type="button" onClick={goToFolder}>
+          <button className="ml-5" type="button" onClick={goToFolder}>
             Go!
           </button>
         </div>
-        <h1>Hello this is a notepad online, made by Faletti!</h1>
+        <h1>Hello! Welcome to this online notepad, created by Faletti!</h1>
       </main>
     </div>
   );
